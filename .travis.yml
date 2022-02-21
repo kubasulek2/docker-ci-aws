@@ -8,10 +8,8 @@ script:
   - docker run -e CI=true docker-ci-aws npm run test
 deploy:
   provider: elasticbeanstalk
-  access_key_id: 
-    secure: "$AWS_ACCESS_KEY"
-  secret_access_key: 
-    secure: "$AWS_SECRET_KEY"
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
   region: 'us-east-1'
   app: 'my-test-app'
   env: 'Mytestapp-env'
