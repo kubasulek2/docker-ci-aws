@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reloaded.
         </p>
+        <p>
+          This is extra paragraph, made from new branch.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
